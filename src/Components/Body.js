@@ -10,7 +10,7 @@ const Body = ({ theme }) => {
 
             <div>
                 <img className='z-0 h-[1520px] w-100% relative object-fill '
-                    src={theme ? bgtwo : bg} />
+                    src={theme ? bgtwo : bg} alt="background images" />
 
             </div>
         </>

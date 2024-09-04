@@ -17,11 +17,12 @@ function App() {
       <BrowserRouter>
         <Navbar theme={theme} setTheme={setTheme} />
         <Routes>
-          <Route path="/" element={<About />} />
-          <Route path="resume" element={<Resume />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contacts" element={<Contacts />} />
+          <Route path="" element={<About />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contacts" element={<Contacts />} />
         </Routes>
+
       </BrowserRouter>
       <div className='flex'>
         <Sidebar />

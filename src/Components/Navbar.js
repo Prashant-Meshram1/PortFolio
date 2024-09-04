@@ -11,7 +11,7 @@ import { useState } from "react";
 const Navbar = ({ theme, setTheme }) => {
     const [itemSelect, setItemsSelect] = useState("home")
     const toggle_mode = () => {
-        theme == true ? setTheme(false) : setTheme(true)
+        theme === true ? setTheme(false) : setTheme(true)
     }
     const clickHandle = (items) => {
         setItemsSelect(items)
@@ -49,7 +49,7 @@ const Navbar = ({ theme, setTheme }) => {
                     <Link to="contacts" onClick={() => clickHandle("contacts")}>
                         <div className={`${itemSelect === "contacts" ? ' h-16  m-4  w-16 bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-xl flex flex-col justify-center items-center cursor-pointer' : ' bg-cyan-700 h-16  m-4  w-16 hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-xl flex flex-col justify-center items-center cursor-pointer'}`}>
                             <RiContactsBook3Line className="h-6 w-6 text-white" />
-                            <p className="text-white font-round  text-[13px]  ">Projects </p>
+                            <p className="text-white font-round  text-[13px]  ">Contacts </p>
                         </div>
                     </Link>
 

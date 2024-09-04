@@ -8,7 +8,7 @@ import { MdEmail } from "react-icons/md";
 import { FaBirthdayCake } from "react-icons/fa";
 import { FaPhoneSquareAlt } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
-import vicky from "../Images/vicky.jpeg"
+import mypic from "../Images/mypic.png"
 const Sidebar = () => {
     const Download_Resume = () => {
 
@@ -23,8 +23,8 @@ const Sidebar = () => {
             <div className=' bg-[#111111]  absolute h-[777px] w-[330px]  border-2 border-r-amber-500 rounded-xl  z-10 top-[225px] left-14'>
             </div>
             <img
-                className="absolute z-20 rounded-[50px] top-[113px] left-[116px] bg-green-100"
-                src={vicky}
+                className="absolute z-20 rounded-[70px] top-[113px] left-[116px] bg-green-100"
+                src={mypic}
                 width={200}
                 heigt={200}
                 alt="Prashant Meshram" />
